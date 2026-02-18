@@ -3,6 +3,7 @@ Tracks 21 points on the hand. Each finger is a different colour, as well as the 
 
 
 ### INSTALLATION:
+After cloning the repository, input the following commands into the terminal.
 
 
 <br/>

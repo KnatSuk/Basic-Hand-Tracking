@@ -36,7 +36,7 @@ class HandDetector:
 
     def __init__(self):
         self.base_options = python.BaseOptions(model_asset_path='hand_landmarker.task')
-        self.options = vision.HandLandmarkerOptions(base_options=self.base_options, num_hands=4)
+        self.options = vision.HandLandmarkerOptions(base_options=self.base_options, num_hands=2)
         self.detector = vision.HandLandmarker.create_from_options(self.options)
 
     def detected_result(self, image):
